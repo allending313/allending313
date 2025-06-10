@@ -4,7 +4,6 @@ on:
   push: {branches: ["main"]}
 
 jobs:
-
   github-metrics:
     runs-on: ubuntu-latest
     steps:
@@ -18,6 +17,7 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
   lines:
     runs-on: ubuntu-latest
     steps:
@@ -35,12 +35,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: acti_comm.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Options
           user: allending313
           template: classic
           base: activity, community
@@ -52,12 +49,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: iso_calender.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Options
           user: allending313
           template: classic
           base: ""
@@ -73,7 +67,7 @@ jobs:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
           user: allending313
           base: ""
           template: classic
@@ -89,12 +83,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: issue_pr_lang.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Options
           user: allending313
           template: classic
           base: ""
@@ -109,12 +100,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: repositories.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Options
           user: allending313
           template: classic
           base: repositories
@@ -127,7 +115,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.music.playlist.spotify.svg
-          token: NOT_NEEDED
+          token: ${{ secrets.METRICS_SECRET }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          user: allending313
+          template: classic
           base: ""
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_music: yes
           plugin_music_playlist: https://open.spotify.com/playlist/4Bn7SckgA7BpN9pdtcviiL

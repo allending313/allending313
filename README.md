@@ -17,7 +17,7 @@
 </a>
 
 <a href="https://github.com/allending313">
-    <img align="center" width="49%" src="./issue_pr_lang.svg" />
+  <img align="center" width="49%" src="./issue_pr_lang.svg" />
 </a>
 
 <a href="https://github.com/allending313">
@@ -25,5 +25,5 @@
 </a>
 
 <a href="https://github.com/allending313">
-    <img align="center" width="49%" src="./metrics.plugin.music.playlist.spotify.svg" />
+  <img align="center" width="49%" src="./metrics.plugin.music.playlist.spotify.svg" />
 </a>
