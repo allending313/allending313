@@ -77,12 +77,12 @@ jobs:
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
 
-  issue_pr_lang:
+  languages:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: issue_pr_lang.svg
+          filename: languages.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -90,8 +90,8 @@ jobs:
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
-          plugin_followup: yes
           plugin_languages: yes
+          plugin_languages_ignored: html, css
 
 
   repositories:
@@ -124,4 +124,4 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_music: yes
           plugin_music_provider: spotify
-          plugin_music_playlist: https://open.spotify.com/playlist/4Bn7SckgA7BpN9pdtcviiL
+          plugin_music_playlist: https://open.spotify.com/playlist/4Bn7SckgA7BpN9pdtcviiL?si=thvfc4AMTeGOkvM7REg0ag
