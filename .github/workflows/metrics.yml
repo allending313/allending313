@@ -123,5 +123,6 @@ jobs:
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_music: yes
+          plugin_music_mode: playlist
           plugin_music_provider: spotify
-          plugin_music_playlist: https://open.spotify.com/playlist/4Bn7SckgA7BpN9pdtcviiL?si=thvfc4AMTeGOkvM7REg0ag
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/4Bn7SckgA7BpN9pdtcviiL
