@@ -25,22 +25,15 @@
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Afterglow</div>
-                                    <div class="artist">Luna Li</div>
+                                    <div class="name">Represent</div>
+                                    <div class="artist">ENas</div>
                                 </div>
                             </div>
                             <div class="track">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Une belle histoire</div>
-                                    <div class="artist">Michel Fugain &amp; Le Big Bazar</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Trophy</div>
-                                    <div class="artist">Crumb</div>
+                                    <div class="name">Plain Jane</div>
+                                    <div class="artist">EA$AP Ferg</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -48,6 +41,13 @@
                                 <div class="infos">
                                     <div class="name">Scottie Beam</div>
                                     <div class="artist">EFreddie Gibbs, The Alchemist, Rick Ross</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">cream</div>
+                                    <div class="artist">paris match</div>
                                 </div>
                             </div>
                         </div>
